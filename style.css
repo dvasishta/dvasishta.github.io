@@ -18,6 +18,11 @@ body {
   border-bottom: 1px solid #eaeaea;
 }
 
+.nav-left {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .navbar a {
   margin-left: 20px;
   text-decoration: none;
@@ -50,6 +55,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
+  border: 1px solid #ddd;
 }
 
 .subtitle {
@@ -89,9 +95,24 @@ body {
   margin-bottom: 10px;
 }
 
-.content p,
+.content p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
 .content li {
   font-size: 16px;
   line-height: 1.6;
-  margin-bottom: 10px;
+}
+
+.hobby {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
 }
